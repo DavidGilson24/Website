@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+   
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="mainstyle.css">
+        <title> David Gilson </title>
+         
+    </head>
+
+    <div id="welcome-screen" class="welcome-screen">
+        > Welcome
+    </div>
+    
+    <body>
+
+        <nav class="navbar">
+
+            <ul id="NavBar">
+                <li><a class="link-aboutme" href="#AboutMe">> About Me</a></li>
+                <li><a class="link-projects" href="#Projects">> Projects</a></li>
+                <li><a class="link-contact" href="#Contact">> Contact</a></li>
+            </ul>
+
+        </nav>
+
+        <button id="to-top" class="to-top">
+
+            <ion-icon name="arrow-up-outline" class="arrow-to-top"></ion-icon>
+
+        </button>
+
+        <main>
+
+            <div id="TitlePage">
+
+                <img class="main-image" src="assets/images/moon_render2.jpg">
+                
+                <div class="overlay-text">
+
+                    <h1 class="name"> David Gilson </h1>
+
+                    <div class="icons">
+                        <a href="https://www.linkedin.com/in/david-gilson-091903255" target="_blank">
+                            <ion-icon class="linkedin" name="logo-linkedin"></ion-icon>
+                        </a>
+    
+                        <a href="https://www.github.com/DavidGilson24" target="_blank">
+                            <ion-icon class="github" name="logo-github"></ion-icon>
+                        </a>
+    
+                        <a href="https://dribbble.com/DavidGilson" target="_blank">
+                            <ion-icon class="dribble" name="logo-dribbble"></ion-icon>
+                        </a>
+
+                        <a href="https://youtube.com/@DavidGilson24?feature=shared" target="_blank">
+                            <ion-icon class="youtube" name="logo-youtube"></ion-icon>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="separate-title"></div>
+
+            <div id="AboutMe" class="about-section">
+                <h2 class="about-title"> > About Me </h2>
+                <p class="about-para"> 
+                    <span class="type-element">
+                        Hello, my name is David Gilson and I am currently taking part in the Computer Science bachelor at <span class="gray-white-theme">Vrije Universiteit Amsterdam</span>.<br>
+                        <br>
+                        This portofolio will give you some insight on who I am. It will showcase my coding and development experience as well as my projects. Since high-school, I have learned multiple programming languages such as:<br>
+                        <span  class="gray-white-theme">Python, C++, C, SQL, Scala, Html/css and MATLAB</span>. <br>
+                        <br>
+                        I also have skills in music producing and video editing, thanks to the use of digital audio workstations and editing software.<br> 
+                        <br> I have always loved tinkering with computers since a young age, and deciding to study computer science was a no-brainer. With time I have also become increasingly interested in space and our universe. Apart from obtaining experience in <span class="gray-white-theme">programming languages</span> and <span class="gray-white-theme">computer theory</span>,
+                        I have continuously been improving my skills by working on projects and learning new concepts surrounding technology and <span class="gray-white-theme">astronomy</span>.
+                    </span><br>
+                </p>
+            </div>
+
+            <div class="separate-title2"></div>
+
+            <div id="Projects" class="solar-atlas">
+
+                <div class="sl-border"></div>
+
+                <div> 
+                    <iframe class="sl-video" src="https://www.youtube.com/embed/t2L8i9ZZxTs?si=syPZ9lau9pExWmZa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+                </div>
+
+                <div class="sl-text1">
+                    <p>
+                        Solar Atlas is an interactive 3D software targeted to anyone who wants <br> 
+                        to learn about the universe, with a focus on our home, the Solar system. <br>
+                        <br>
+                        You have the opportunity to interact with each planet of the solar system<br>
+                        and learn facts about each of them and their respective moons.<br>
+                        <br>
+                        Educational and immersive, your curiosity and thirst for exploration can be unraveled.<br>
+                        <br>
+                        What else is there to see? What else is there to learn?
+                    </p>
+                </div>
+
+                <div>
+                    <p class="sl-text2">
+                        Solar atlas is developed on unreal engine 5, <br> with all the 3D models <br>
+                        that are made in blender as well <br> as the textures, with the help of 
+                        <br> nasa's color maps and topography maps. <br>
+                        <br>
+                        the music and soundtrack is also made by me, <br> using fl studio 20. <br>
+                        <br>
+                        The project is still in development, <br> and will be released in april 2024.
+                    </p>
+                    <img class="sl-image" src="assets/images/mars_render(1).jpg">
+                </div>
+
+                <div class="quasar">
+                    <div class="quasar-border"></div>
+
+                    <a class="link-quasar" href="quasar.html"> < ACCESS QUASAR > </a>
+
+                    <div class="quasar-text1">
+                        <p>
+                            Quasar is a chatbot based around astronomy. <br> 
+                            It gives insight on different astronomical <br>
+                            object and phenomena.
+                            <br>
+                            The chatbot is built using OpenAI's API,<br> 
+                            and runs with the gpt-3.5 model data<br>
+                            <br>
+                            Ask Quasar anything, and receive an educative <br>
+                            and in-depth answer.<br>
+                            <br>
+                            Programmed with python, with a limit rate of 20 <br>
+                            messages per hour (as to not abuse the usage)
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="separate-title3"></div>
+
+            <div id="Contact">
+                <h2 class="contact-title"> > Contact </h2>
+
+                <div class="contact-container">
+                    <form id="emailjs-id">
+                        <div class="app-form">  
+                            <div class="app-form-group">
+                                <input id="name" class="app-form-control" placeholder="FULL NAME" required>
+                            </div>
+                            <div class="app-form-group">
+                                <input id="email" class="app-form-control" placeholder="EMAIL" required>
+                            </div>
+
+                            <div class="app-form-group message">
+                                <input id="message" class="app-form-control" placeholder="MESSAGE" rows="4" required>
+                            </div>
+                            <div class="app-form-group buttons">
+                                <button class="app-form-button" id="submit-btn">SEND</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <p>cs@david-gilson.com</p>
+                    <p>+31 0627844969</p>
+                    <p>© 2024 David Gilson - All Rights Reserved.</p>
+                </div>
+
+            </div>
+
+        </main>
+
+        <script src="scripts/welcome-screen.js"></script>
+        <script src="scripts/scroll-to-top.js"></script>
+        <script src="scripts/scroll-fade.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+        <script src="scripts/send-email.js"></script>
+        
+    </body>
+
+</html>
